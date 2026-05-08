@@ -3,56 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visualizador ELP</title>
+  <title>Descargar actividades</title>
 
   <style>
     body{
       font-family: Arial, sans-serif;
       background:#f4f4f4;
-      margin:0;
-      padding:40px;
       text-align:center;
+      padding:40px;
     }
 
     h1{
       color:#333;
-      margin-bottom:30px;
+      margin-bottom:40px;
     }
 
     .contenedor{
       display:flex;
-      gap:20px;
       justify-content:center;
+      gap:20px;
       flex-wrap:wrap;
     }
 
-    iframe{
-      width:45%;
-      height:700px;
-      border:2px solid #ccc;
+    a{
+      display:inline-block;
+      padding:20px 30px;
+      background:#2563eb;
+      color:white;
+      text-decoration:none;
       border-radius:10px;
-      background:white;
+      font-size:18px;
+      transition:0.3s;
     }
 
-    @media (max-width:900px){
-      iframe{
-        width:100%;
-      }
+    a:hover{
+      background:#1d4ed8;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Archivos ELP</h1>
+  <h1>Descargar archivos ELP</h1>
 
   <div class="contenedor">
 
-    <!-- Primer archivo -->
-    <iframe src="Actividad Guerra Fría y Descolonización.elp"></iframe>
+    <a href="Actividad Guerra Fría y Descolonización.elp" download>
+      Descargar Actividad Guerra Fría y Descolonización
+    </a>
 
-    <!-- Segundo archivo -->
-    <iframe src="Queren Prego Pazos b2 Actividad 2a.elp"></iframe>
+    <a href="Queren Prego Pazos b2 Actividad 2a.elp" download>
+      Descargar Queren Prego Pazos b2 Actividad 2a
+    </a>
 
   </div>
 
