@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizador ELP</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f4f4f4;
+      margin:0;
+      padding:40px;
+      text-align:center;
+    }
+
+    h1{
+      color:#333;
+      margin-bottom:30px;
+    }
+
+    .contenedor{
+      display:flex;
+      gap:20px;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+
+    iframe{
+      width:45%;
+      height:700px;
+      border:2px solid #ccc;
+      border-radius:10px;
+      background:white;
+    }
+
+    @media (max-width:900px){
+      iframe{
+        width:100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Archivos ELP</h1>
+
+  <div class="contenedor">
+
+    <!-- Primer archivo -->
+    <iframe src="Actividad Guerra Fría y Descolonización.elp"></iframe>
+
+    <!-- Segundo archivo -->
+    <iframe src="Queren Prego Pazos b2 Actividad 2a.elp"></iframe>
+
+  </div>
+
+</body>
+</html>
